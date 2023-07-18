@@ -21,6 +21,9 @@ nav{
     padding: 10px; */
 gap: 20px;
 }
+.nav-name{
+    gap: 0px;
+}
 /* .nav-manubar li{
     margin: 10px;
 } */
@@ -40,7 +43,10 @@ gap: 20px;
 
 
 /* ...........goat section design.................. */
-.goat-contant{
+.goat-contant
+{
+    border: 2px solid salmon;
+    text-align: center;
     justify-content: center;
 }
 .goat-ul{
@@ -52,11 +58,67 @@ gap: 20px;
     list-style: none;
     display: flex;
 }
-.goat{
+.goat,
+.gamer
+{
+    background: linear-gradient(223deg, rgba(140, 87, 238, 0.03) 0%, rgba(241, 68, 174, 0.03) 100%);
+    border: 2px solid rebeccapurple;
+    margin-top: 10px;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
+    /* background-color: #FFF;; */
+    background-color: linear-gradient(223deg, rgba(140, 87, 238, 0.03) 0%, rgba(241, 68, 174, 0.03) 100%);
+    ;
 }
-.goat-img img{
-    width: 100%;
-    height: 100%;
+.goat-img img,
+.gamer-img img
+{
+    
+    width: 30rem;
+    /* height: 100%; */
+}
+.goat-text{
+    font-family: Work Sans;
+    font-weight: 800;
+/* font-size: 95px; */
+color: rgb(168, 39, 149);
+}
+.sign-btn{
+    border-radius: 48px;
+    background: var(--linear, linear-gradient(90deg, #FF42A5 0%, #FF42A5 100%));
+    color: #FFF;
+    border: none;
+}
+.go-rogue-btn{
+    border-radius: 48px;
+background: #4EC5F7;
+color: #FFF;
+border:none;
+}
+
+/* ....................... section gamer design.................. */
+.gamer{
+    background: linear-gradient(90deg, rgba(255, 66, 165, 0.03) 0%, rgba(255, 66, 165, 0.03) 100%);
+
+}
+.gamer-contant
+{
+    border: 2px solid salmon;
+    text-align: right;
+    justify-content: center;}
+
+@media screen and (max-width:576px) {
+    nav,
+    .nav-menubar,
+    .goat
+    {
+        flex-direction: column;
+    }
+    .nav-name{
+        justify-content: center;
+        gap: 0px;
+    }
+
+}
+    
 }
