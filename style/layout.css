@@ -107,6 +107,17 @@ border:none;
     text-align: right;
     justify-content: center;}
 
+/* .................. section funny design............................ */
+.funny{
+    margin-top: 40px;
+    text-align: center;
+}
+.card-container{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
 @media screen and (max-width:576px) {
     nav,
     .nav-menubar,
