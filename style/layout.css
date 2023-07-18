@@ -110,15 +110,24 @@ border:none;
 @media screen and (max-width:576px) {
     nav,
     .nav-menubar,
-    .goat
+    .goat,
+    .gamer
     {
         flex-direction: column;
+        padding: 20px;
     }
     .nav-name{
         justify-content: center;
         gap: 0px;
     }
+    .goat-img img,
+    .gamer-img img{
+        width: 100%;
+    }
+    .gamer-contant{
+        justify-content: center;
+        text-align: center;
+    }
 
 }
     
-}
