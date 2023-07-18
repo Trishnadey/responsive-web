@@ -122,7 +122,8 @@ border:none;
     nav,
     .nav-menubar,
     .goat,
-    .gamer
+    .gamer,
+    .card-container
     {
         flex-direction: column;
         padding: 20px;
@@ -132,7 +133,9 @@ border:none;
         gap: 0px;
     }
     .goat-img img,
-    .gamer-img img{
+    .gamer-img img,
+    .card img
+    {
         width: 100%;
     }
     .gamer-contant{
