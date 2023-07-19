@@ -126,6 +126,7 @@ footer{
     
     height: 20rem;
     background: #0B0223;
+    padding: 5rem 15rem;
 }
 .footer-name{
     justify-content: center;
@@ -137,35 +138,13 @@ footer{
     padding: 10px;
 gap: 20px;
 }
-
-
-
-
-
-@media screen and (max-width:576px) {
-    nav,
-    .nav-menubar,
-    .goat,
-    .gamer,
-    .card-container
-    {
-        flex-direction: column;
-        padding: 20px;
-    }
-    .nav-name{
-        justify-content: center;
-        gap: 0px;
-    }
-    .goat-img img,
-    .gamer-img img,
-    .card img
-    {
-        width: 100%;
-    }
-    .gamer-contant{
-        justify-content: center;
-        text-align: center;
-    }
-
+.footer-text{
+    color: #FFF;
+    text-align: center;
+}
+.footer-ul{
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
 }
     
