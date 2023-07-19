@@ -122,6 +122,7 @@ border:none;
 }
 /* ...........................footer section design,................./ */
 
+
 footer{
     
     height: 20rem;
@@ -146,5 +147,61 @@ gap: 20px;
     list-style: none;
     display: flex;
     justify-content: space-around;
+}
+.footer-iconbar{
+    justify-content: center;
+    gap: 10px;
+    margin-top: 20px;
+}
+    
+
+
+
+
+@media screen and (max-width:576px) {
+    nav,
+    .nav-menubar,
+    .goat,
+    .gamer,
+    .card-container
+    {
+        flex-direction: column;
+        padding: 20px;
+    }
+    .nav-name{
+        justify-content: center;
+        gap: 0px;
+    }
+    .goat-img img,
+    .gamer-img img,
+    .card img
+    {
+        width: 100%;
+    }
+    .gamer-contant{
+        justify-content: center;
+        text-align: center;
+    }
+    footer{
+        padding: 2rem 1rem;
+    }
+    .footer-res{
+        padding: 0px;
+        margin: 5px;
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 5px;
+        
+    }
+    .footer-final{
+        font-size: 10px;
+        padding: 0px;
+        margin: 5px;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 5px;
+        
+    }
+
 }
     
