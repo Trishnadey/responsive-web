@@ -63,7 +63,7 @@ gap: 20px;
     
 }
 .goat-list{
-    margin: 2px;
+    margin: 0px;
     padding: 0px;
     list-style: none;
     display: flex;
@@ -93,7 +93,8 @@ gap: 20px;
 }
 .goat-text{
     font-family: Work Sans;
-    font-weight: 800;
+    font-weight: bold;
+
 /* font-size: 95px; */
 color: rgb(168, 39, 149);
 }
@@ -166,9 +167,20 @@ border:none;
     filter:contrast(30%)
 }
 
-.extra{
-    
+.extra button>img{
+    position: absolute;
+    width: 50px;
+    height: 50px;
+   transform: translate(-20px,-300px);
+  
+    opacity: 0;
 }
+.extra button>img:hover{
+    cursor: pointer;
+    
+    opacity: 1;
+}
+
 /* ...........................footer section design,................./ */
 
 
@@ -228,6 +240,9 @@ gap: 20px;
 .games1{
     padding: 5px 40px;
     /* margin-left: 20px; */
+}
+button:hover{
+    cursor: pointer;
 }
 
 
