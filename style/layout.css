@@ -73,8 +73,8 @@ gap: 20px;
 .goat-img img,
 .gamer-img img
 {
-    
-    width: 30rem;
+    width: 340px;
+    /* width: 30rem; */
     /* height: 100%; */
 }
 .goat-text{
@@ -154,8 +154,29 @@ gap: 20px;
     margin-top: 20px;
 }
     
+/* ................................. games section */
+.games{
+    padding: 20px;
+}
+.games-name,
+.games1,
+.games2{
+    display: flex;
+    justify-content: center ;
 
+    gap: 15px;
+    border-radius: 50px; 
+}
+.games-name:hover{
+    border: 2px solid tomato;
+    color: #FF42A5 ;
+    cursor: pointer;
 
+}
+.games1{
+    padding: 5px 40px;
+    /* margin-left: 20px; */
+}
 
 
 @media screen and (max-width:576px) {
@@ -201,6 +222,10 @@ gap: 20px;
         grid-template-columns: repeat(2, 1fr);
         gap: 5px;
         
+    }
+    .games1,.games2{
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
     }
 
 }
