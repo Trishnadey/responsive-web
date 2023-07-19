@@ -3,7 +3,7 @@
 
 /* ...................nav design......................... */
 nav{
-    border: 2px solid tomato;
+    /* border: 2px solid tomato; */
     display: flex;
     justify-content: space-around;
 }
@@ -45,7 +45,7 @@ gap: 20px;
 /* ...........goat section design.................. */
 .goat-contant
 {
-    border: 2px solid salmon;
+    /* border: 2px solid salmon; */
     text-align: center;
     justify-content: center;
 }
@@ -62,7 +62,7 @@ gap: 20px;
 .gamer
 {
     background: linear-gradient(223deg, rgba(140, 87, 238, 0.03) 0%, rgba(241, 68, 174, 0.03) 100%);
-    border: 2px solid rebeccapurple;
+    /* border: 2px solid rebeccapurple; */
     margin-top: 10px;
     display: flex;
     justify-content: space-around;
@@ -103,7 +103,7 @@ border:none;
 }
 .gamer-contant
 {
-    border: 2px solid salmon;
+    /* border: 2px solid salmon; */
     text-align: right;
     justify-content: center;}
 
@@ -117,6 +117,30 @@ border:none;
     justify-content: center;
     gap: 10px;
 }
+.card img{
+    width: 20rem;
+}
+/* ...........................footer section design,................./ */
+
+footer{
+    
+    height: 20rem;
+    background: #0B0223;
+}
+.footer-name{
+    justify-content: center;
+    display: flex;
+    list-style: none;
+    align-items: center;
+
+    margin: 10px;
+    padding: 10px;
+gap: 20px;
+}
+
+
+
+
 
 @media screen and (max-width:576px) {
     nav,
